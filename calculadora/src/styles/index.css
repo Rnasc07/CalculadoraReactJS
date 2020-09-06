@@ -1,0 +1,23 @@
+@font-face{
+  font-family: 'Prompt';
+  src: url('../fonts/Prompt-Regular.ttf');
+}
+
+*{
+  font-family: 'Prompt', monospace;
+  padding:0;
+  margin:0;
+}
+
+body{
+  display: flex;
+  height:100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, #134E5E, #71B280);
+}
+
+h1{
+  color:#eceded;
+}
