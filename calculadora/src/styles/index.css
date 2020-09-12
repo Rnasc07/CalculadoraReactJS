@@ -16,6 +16,7 @@ body{
   align-items: center;
   text-align: center;
   background: linear-gradient(to right, #134E5E, #71B280);
+  box-sizing: border-box;
 }
 
 h1{
