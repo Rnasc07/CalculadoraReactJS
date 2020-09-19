@@ -69,8 +69,9 @@ input{
     position:relative;
     top: 3px;
     color:#fff;
-    padding-top:10px;
     cursor:pointer;
+    border-radius: 50px;
+    background: transparent;
 }
 
 .btnretroceder{
@@ -79,8 +80,9 @@ input{
     position:relative;
     top:3px;
     color:#fff;
-    padding-top:10px;
     cursor:pointer;
+    border-radius: 50px;
+    background: transparent;
 }
 
 .btndividir{
@@ -89,7 +91,8 @@ input{
     position:relative;
     top:3px;
     color:#fff;
-    padding-top:10px;
+    border-radius: 50px;
+    background: transparent;
     cursor:pointer;
 }
 
@@ -100,7 +103,8 @@ input{
     border:1px solid #fff;
     position:relative;
     color:#fff;
-    padding-top:10px;
+    border-radius: 50px;
+    background: transparent;
     cursor:pointer;
 }
 
@@ -109,7 +113,8 @@ input{
     border:1px solid #fff;
     position:relative;
     color:#fff;
-    padding-top:10px;
+    border-radius: 50px;
+    background: transparent;
     cursor:pointer;
 }
 
@@ -118,7 +123,8 @@ input{
     border:1px solid #fff;
     position:relative;
     color:#fff;
-    padding-top:10px;
+    border-radius: 50px;
+    background: transparent;
     cursor:pointer;
 }
 
@@ -127,7 +133,8 @@ input{
     border:1px solid #fff;
     position:relative;
     color:#fff;
-    padding-top:10px;
+    border-radius: 50px;
+    background: transparent;
     cursor:pointer;
 }
 
@@ -138,7 +145,8 @@ input{
     border:1px solid #fff;
     position:relative;
     color:#fff;
-    padding-top:10px;
+    border-radius: 50px;
+    background: transparent;
     cursor:pointer;
 }
 
@@ -147,7 +155,8 @@ input{
     border:1px solid #fff;
     position:relative;
     color:#fff;
-    padding-top:10px;
+    border-radius: 50px;
+    background: transparent;
     cursor:pointer;
 }
 
@@ -156,7 +165,8 @@ input{
     border:1px solid #fff;
     position:relative;
     color:#fff;
-    padding-top:10px;
+    border-radius: 50px;
+    background: transparent;
     cursor:pointer;
 }
 
@@ -165,7 +175,8 @@ input{
     border:1px solid #fff;
     position:relative;
     color:#fff;
-    padding-top:10px;
+    border-radius: 50px;
+    background: transparent;
     cursor:pointer;
 }
 
@@ -176,7 +187,8 @@ input{
     border:1px solid #fff;
     position:relative;
     color:#fff;
-    padding-top:10px;
+    border-radius: 50px;
+    background: transparent;
     cursor:pointer;
 }
 
@@ -185,7 +197,8 @@ input{
     border:1px solid #fff;
     position:relative;
     color:#fff;
-    padding-top:10px;
+    border-radius: 50px;
+    background: transparent;
     cursor:pointer;
 }
 
@@ -194,7 +207,8 @@ input{
     border:1px solid #fff;
     position:relative;
     color:#fff;
-    padding-top:10px;
+    border-radius: 50px;
+    background: transparent;
     cursor:pointer;
 }
 
@@ -203,7 +217,8 @@ input{
     border:1px solid #fff;
     position:relative;
     color:#fff;
-    padding-top:10px;
+    border-radius: 50px;
+    background: transparent;
     cursor:pointer;
 }
 
@@ -214,7 +229,8 @@ input{
     border:1px solid #fff;
     position:relative;
     color:#fff;
-    padding-top:10px;
+    border-radius: 50px;
+    background: transparent;
     cursor:pointer;
 }
 
@@ -223,7 +239,8 @@ input{
     border:1px solid #fff;
     position:relative;
     color:#fff;
-    padding-top:10px;
+    border-radius: 50px;
+    background: transparent;
     cursor:pointer;
 }
 
@@ -232,12 +249,7 @@ input{
     border:1px solid #fff;
     position:relative;
     color:#fff;
-    padding-top:10px;
-    cursor:pointer;
-}
-
-/**/
-
-.apply-border{
     border-radius: 50px;
+    background: transparent;
+    cursor:pointer;
 }

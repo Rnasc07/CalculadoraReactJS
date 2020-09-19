@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import '../styles/calculadora.css';
+import Botao from './Botao';
 
 export default class Calculadora extends Component{
+  showValue(value){
+    alert(`Valor capturado: ${value}`);
+    //Função apenas teste! Depois colocar a função original
+  }
   render(){
     return(
       <>
@@ -12,29 +17,29 @@ export default class Calculadora extends Component{
           <input type="text" name="result" readOnly value="808" className="result"/>
         </div>
         <div className="all-buttons-body">
-            {/* Primeira linha */}
-            <div className="btnlimpar apply-border"><i className="fas fa-long-arrow-alt-left"></i></div>
-            <div className="btnretroceder apply-border">C</div>
-            <div className="btndividir apply-border">\</div>
+            {/* Primeira linha */}  
+            <Botao ativarFuncao={()=> this.showValue('Retroceder')} customClass="btnlimpar" btnValue={<i className="fas fa-long-arrow-alt-left"></i>} />
+            <Botao ativarFuncao={()=> this.showValue('C')} customClass="btnretroceder" btnValue="C" />
+            <Botao ativarFuncao={()=> this.showValue('Dividir')} customClass="btndividir" btnValue="/" />
             {/* Segunda linha */}
-            <div className="number1 apply-border">1</div>
-            <div className="number2 apply-border">2</div>
-            <div className="number3 apply-border">3</div>
-            <div className="btnmultiplicar apply-border">*</div>
+            <Botao ativarFuncao={()=> this.showValue('1')} customClass="number1" btnValue="1" />
+            <Botao ativarFuncao={()=> this.showValue('2')} customClass="number2" btnValue="2" />
+            <Botao ativarFuncao={()=> this.showValue('3')} customClass="number3" btnValue="3" />
+            <Botao ativarFuncao={()=> this.showValue('Multiplicar')} customClass="btnmultiplicar" btnValue="*" />
             {/* Terceira linha */}
-            <div className="number4 apply-border">4</div>
-            <div className="number5 apply-border">5</div>
-            <div className="number6 apply-border">6</div>
-            <div className="btnsubtrair apply-border">-</div>
+            <Botao ativarFuncao={()=> this.showValue('4')} customClass="number4" btnValue="4" />
+            <Botao ativarFuncao={()=> this.showValue('5')} customClass="number5" btnValue="5" />
+            <Botao ativarFuncao={()=> this.showValue('6')} customClass="number6" btnValue="6" />
+            <Botao ativarFuncao={()=> this.showValue('Subtrair')} customClass="btnsubtrair" btnValue="-" />
             {/* Quarta linha */}
-            <div className="number7 apply-border">7</div>
-            <div className="number8 apply-border">8</div>
-            <div className="number9 apply-border">9</div>
-            <div className="btnsomar apply-border">+</div>
+            <Botao ativarFuncao={()=> this.showValue('7')} customClass="number7" btnValue="7" />
+            <Botao ativarFuncao={()=> this.showValue('8')} customClass="number8" btnValue="8" />
+            <Botao ativarFuncao={()=> this.showValue('9')} customClass="number9" btnValue="9" />
+            <Botao ativarFuncao={()=> this.showValue('Somar')} customClass="btnsomar" btnValue="+" />
             {/* Quinta linha */}
-            <div className="number0 apply-border">0</div>
-            <div className="btnvirgula apply-border">,</div>
-            <div className="btnigual apply-border">=</div>
+            <Botao ativarFuncao={()=> this.showValue('0')} customClass="number0" btnValue="0" />
+            <Botao ativarFuncao={()=> this.showValue('Vírgula')} customClass="btnvirgula" btnValue="," />
+            <Botao ativarFuncao={()=> this.showValue('Igual')} customClass="btnigual" btnValue="=" />
         </div>
       </div>
       </>
