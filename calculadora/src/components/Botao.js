@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 export default class Botao extends Component {
     constructor(props){
-        super(props)
+        super(props);
     }
     render(){
         return(
